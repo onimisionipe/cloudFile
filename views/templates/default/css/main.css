@@ -1,0 +1,117 @@
+/*
+Copyright (C) 2014
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2
+of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
+*/
+/* 
+    Created on : Sep 10, 2014, 11:18:30 AM
+   
+*/
+
+@font-face
+{
+font-family: Aller;
+src: url('http://localhost/cloudfile/images/fonts/aller.ttf') format('truetype');
+      
+}
+body {
+    color: rgba(0,0,0,0.7);
+    font-size: 13px;
+    font-family: Aller;
+        
+}
+.chncolor {
+    background-color: #2ECC71;
+    border: solid thin #27AE60;
+}
+.chncolor:hover {
+    background-color: #27AE60;
+    border: solid thin #2ECC71;
+}
+.subh {
+    color: #3498db;
+}
+.carousel-caption .subh {
+    color: #f1c40f;
+}
+
+/**
+Bootstrap Css Override - i prefer to override than recompiling less file all the time....sorry
+**/
+.navbar-default {
+    background-color: white;
+    color: #2980b9;
+    border-radius: 0;
+    min-height: 80px;
+}
+.navbar .navbar-header .navbar-brand{
+    font-size: 200%;
+    letter-spacing: 1px;
+}
+
+.navbar .collapse .navbar-nav li a {
+    color: #3498db;
+    font-size: 120%;
+   
+}
+.navbar .collapse .navbar-nav li a:hover {
+    background-color: #ecf0f1;
+}
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+#myCarousel {
+    margin-top: -20px;
+}
+
+/* Carousel base class */
+.carousel {
+  
+  height: 550px;
+  margin-bottom: 60px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 550px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 550px;
+  
+}
+.form-control {
+    height: 50px;
+    border: solid thin #3498db;
+}
+.subtext {
+    color: rgba(0,0,0,0.5);
+}
+hr{
+  height: 1px;
+  background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
+  background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
+  background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
+  background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
+  border: 0;
+}
