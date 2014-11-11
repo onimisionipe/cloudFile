@@ -8,13 +8,19 @@ The controllers are stores in a folder called 'controller', like wise the model 
 This project simply is a layer on operating system filesystem that allows users to create account, manage their files and most importantly share files. Users don't need to worry about file permission etc.
 
 Current Development Stage:
+=========
 The file sharing and download module is yet to be implemented. This components are still in development and would be implemented when they are done.
 
 Audience:
+=========
 Anybody hoping to set up a simple file sharing for small to medium community.
 
-Before Install:
+Installation:
+=========
 Please make sure you chmod 777 the base user direectory - 'userfile' as new user directory is derived from here.
-Thank you.
+Thank you. and also make sure mod_rewrite is enabled on apache. 
+import the .sql file to create the database and copy the root folder to your www or htdocs or webroot folder.
+
+
 
 
